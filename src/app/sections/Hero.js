@@ -1,6 +1,7 @@
 import React from 'react'
 import GetStartedButton from '../components/GetStartedButton'
 import HeroNumbers from '../components/HeroNumbers'
+import { HeroTiltCard } from '../components/HeroTiltCard'
 
 const Hero = () => {
   return (
@@ -16,7 +17,9 @@ const Hero = () => {
               <HeroNumbers title={'10K'} desc={'USERS'}/>
             </div>
         </div>
-        <div className='w-[50%]'></div>
+        <div className='w-[50%] flex justify-center items-center'>
+          <HeroTiltCard/>
+        </div>
     </div>
     </>
   )

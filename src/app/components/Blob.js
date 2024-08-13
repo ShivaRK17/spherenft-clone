@@ -32,8 +32,8 @@ const Blob = () => {
         };
     }, [curX, curY]);
 
-    return <div class="gradient-bg">
-        <div class="gradients-container">
+    return <div class="gradient-bg fixed">
+        <div class="gradients-container fixed">
             {/* <div class="g1"></div> */}
             {/* <div class="g2"></div> */}
             {/* <div class="g3"></div> */}
