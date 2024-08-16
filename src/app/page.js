@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <div className='absolute w-full'>
-        {/* <Blob /> */}
+        <Blob />
       </div>
       <Main/>
     </>
