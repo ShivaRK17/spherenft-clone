@@ -32,14 +32,14 @@ const Blob = () => {
         };
     }, [curX, curY]);
 
-    return <div class="gradient-bg fixed">
-        <div class="gradients-container fixed">
+    return <div class="gradient-bg fixed z-[1]">
+        <div class="gradients-container fixed z-[1]">
             {/* <div class="g1"></div> */}
             {/* <div class="g2"></div> */}
             {/* <div class="g3"></div> */}
             {/* <div class="g4"></div> */}
             {/* <div class="g5"></div> */}
-            <div class="interactive" ref={interBubbleRef}></div>
+            <div className='z-[1]' class="interactive" ref={interBubbleRef}></div>
         </div>
     </div>
 };

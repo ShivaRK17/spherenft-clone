@@ -33,7 +33,7 @@ const FAQs = () => {
     };
 
     return (
-        <div className="max-w-2xl mx-auto p-4 bg-[#151329] rounded-3xl border-[1px] border-[#282545]">
+        <div className="max-w-2xl mx-auto p-4 bg-[#151329] rounded-3xl border-[1px] border-[#282545] z-[99]">
             {faqs.map((faq, index) => (
                 <div key={index} className="mb-4 font-inter">
                     <div
