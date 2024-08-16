@@ -9,11 +9,13 @@ import Testimonials from '../sections/Testimonials'
 import FAQ from '../sections/FAQ'
 import EndNote from '../sections/EndNote'
 import Footer from '../sections/Footer'
+import Navbar from '../components/Navbar'
 
 const Main = () => {
   return (
     <>
       <div className='w-full px-10 xl:px-20 text-white'>
+        <Navbar/>
         <Header />
         <Hero />
         <CryptoScroll />

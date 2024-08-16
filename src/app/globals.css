@@ -2,7 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  scroll-behavior: smooth;
+}
 
 body{
   background: #100e1f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7057ff;
+  border-radius: 10px;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+  z-index: 19;
+}
+::-webkit-scrollbar-track {
+  background: #141414; /* Example background to contrast the scrollbar */
 }
